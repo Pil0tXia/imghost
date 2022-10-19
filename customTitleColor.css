@@ -1,18 +1,22 @@
 <style>
 /*标题色值更改*/
 #nav a {
-    color: hsl(195, 97%, 80%);
+    color: hsl(195, 97%, 80%) !important;
 }
-#page-header #site-subtitle,
 #page-header #site-title {
-    color: hsl(195, 97%, 80%);
+    color: hsl(0, 0%, 100%) !important;
 }
+#page-header #site-subtitle {
+    color: hsl(0, 0%, 98%) !important;
+}
+
 /*调整index_img位置*/
 #page-header {
-    background-position: 25% center;
+    background-position: 25% center !important;
 }
+
 /*调节index_img亮度*/
 #page-header:not(.not-top-img):before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.18) !important;
 }
 </style>
