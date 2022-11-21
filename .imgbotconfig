@@ -1,7 +1,7 @@
 {
     "schedule": "weekly",
     "ignoredFiles": [
-        "picgo/WEATHERING WITH YOU*"
+        "gallery/*"
     ],
     "aggressiveCompression": "true"
 }
