@@ -1,7 +1,0 @@
-{
-    "schedule": "weekly",
-    "ignoredFiles": [
-        "gallery/*"
-    ],
-    "aggressiveCompression": "true"
-}
