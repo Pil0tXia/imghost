@@ -1,6 +1,6 @@
 # Git + Netlify 图床
 
-本图床供[个人博客](https://www.pil0txia.com)使用。`BackBlaze B2 + Cloudflare for SaaS + picgo-plugin-s3 + picgo-plugin-compress + FileZilla Pro/CloudBerry Explorer` 方案还是受限于`Cloudflare CDN`的速度，`Netlify`真香。
+本图床供[个人博客](https://www.pil0txia.com)使用。
 
 `PicGo`设定的自定义域名为`https://static.pil0txia.com`
 
@@ -140,4 +140,8 @@ jsdelivr国内被sni阻断，已迁移至 `BackBlaze B2 + Cloudflare for SaaS + 
 
 ## 2022-12-25
 
-她大姨妈
+- 她大姨妈。`BackBlaze B2 + Cloudflare for SaaS + picgo-plugin-s3 + picgo-plugin-compress + FileZilla Pro/CloudBerry Explorer` 方案还是受限于`Cloudflare CDN`的速度，`Netlify`真香。
+
+- 使用 BFG 工具缩减了一半的`.git`体积，与新库相当，同时保留了提交记录。但是因为此工具无法良好处理 pull request 的指向，Github 客服又在放假，所以进行了搬家。
+
+- 给[这个域名](https://static.pil0txia.com)写了一个主页，这样返回的就不是 Netlify 默认的404了。
