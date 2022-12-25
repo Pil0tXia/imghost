@@ -144,4 +144,4 @@ jsdelivr国内被sni阻断，已迁移至 `BackBlaze B2 + Cloudflare for SaaS + 
 
 - 使用 BFG 工具缩减了一半的`.git`体积，与新库相当，同时保留了提交记录。但是因为此工具无法良好处理 pull request 的指向，Github 客服又在放假，所以进行了搬家。
 
-- 给[这个域名](https://static.pil0txia.com)写了一个主页，这样返回的就不是 Netlify 默认的404了。
+- 给[这个域名](https://static.pil0txia.com)写了一个欢迎页，这样返回的就不是 Netlify 默认的404了。
