@@ -1,4 +1,4 @@
-# Git + Netlify 图床
+# 七牛云OSS + 多吉云CDN 图床
 
 本图床供[个人博客](https://www.pil0txia.com)使用。
 
@@ -136,7 +136,7 @@ https://cdn.jsdelivr.net/gh/PilotXia/imghost/picgo/004_clipped_1900p.jpg
 
 ## 2022-12-6
 
-jsdelivr国内被sni阻断，已迁移至 `BackBlaze B2 + Cloudflare for SaaS + picgo-plugin-s3 + picgo-plugin-compress + FileZilla Pro/CloudBerry Explorer` 的方案，见[替代JsDelivr？Cloudflare for SaaS + Backblaze B2 免备案自建图床](https://pil0txia.com/post/2022-12-06_cloudflare-for-saas-backblaze-b2/)
+jsdelivr国内被sni阻断，已迁移至 `BackBlaze B2 + Cloudflare for SaaS + picgo-plugin-s3 + picgo-plugin-compress + FileZilla Pro/CloudBerry Explorer` 的方案
 
 ## 2022-12-25
 
@@ -145,3 +145,15 @@ jsdelivr国内被sni阻断，已迁移至 `BackBlaze B2 + Cloudflare for SaaS + 
 - 使用 BFG 工具缩减了一半的`.git`体积，与新库相当，同时保留了提交记录。但是因为此工具无法良好处理 pull request 的指向，Github 客服又在放假，所以进行了搬家。
 
 - 给[这个域名](https://static.pil0txia.com)写了一个欢迎页，这样返回的就不是 Netlify 默认的404了。
+
+## 2023-1-1 首页大图背景颜色
+
+```
+// .\themes\butterfly\source\css\_layout\head.styl
+#page-header
+	background-color: rgba(40,57,101,0.15)
+```
+
+## 2023-1-13 备案完成
+
+图床迁移至七牛云OSS+多吉云CDN，博客主站和文档站迁移至多吉云OSS+多吉云CDN。
