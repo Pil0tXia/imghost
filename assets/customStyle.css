@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu'), url('https://lib.baomitu.com/fonts/ubuntu/ubuntu-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Varela Round'), url('https://lib.baomitu.com/fonts/varela-round/varela-round-regular.woff2') format('woff2');
+}
